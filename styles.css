@@ -127,15 +127,10 @@ section.alt{ background: var(--blush); }
 
 /* ---------- CERTIFICATES PAGE ---------- */
 .cert-upload-grid{ display:grid; grid-template-columns: repeat(3,1fr); gap:22px; }
-.cert-slot{
-    background:#fff;
-    border:1.5px dashed var(--line);
-    border-radius:14px;
-    overflow:hidden;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:10px;
+.cert-slot a{
+    display:block;
+    width:100%;
+    height:100%;
 }
 
 .cert-slot img{
@@ -143,6 +138,7 @@ section.alt{ background: var(--blush); }
     height:100%;
     object-fit:contain;
     border-radius:10px;
+    display:block;
 }
 
 /* ---------- ABOUT PAGE ---------- */
