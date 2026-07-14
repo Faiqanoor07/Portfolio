@@ -136,11 +136,6 @@ section.alt{ background: var(--blush); }
     margin: auto;
     border-radius: 10px;
 }
-.cert-upload-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
 /* ---------- ABOUT PAGE ---------- */
 .about-grid{ display:grid; grid-template-columns: 1fr 1.4fr; gap:56px; align-items:center; }
 .about-portrait{ border-radius:16px; overflow:hidden; border:1px solid var(--line); box-shadow: 0 20px 40px -22px rgba(107,45,92,0.3); }
